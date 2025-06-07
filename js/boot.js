@@ -24,15 +24,6 @@ function loadScript(path, onComplete)
 /** Init app */
 function initApp()
 {
-    // Set SDK debug mode
-    if (window.PokiSDK && window.GAME_CONFIG && window.GAME_CONFIG.pokiSdkDebug !== undefined)
-    {
-        window.PokiSDK.setDebug(window.GAME_CONFIG.pokiSdkDebug);
-    }
-
-    loadScript('./js/dependencies.bundle.js');
-    loadScript(window.MAIN ? window.MAIN : './js/index.js');
-}
 
 /** Prevent arrows and space from scrolling browser */
 function preventDefaultKeyboardEvents()
