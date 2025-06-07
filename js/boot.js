@@ -76,9 +76,6 @@ preventDefaultKeyboardEvents();
 /** Register service worker if available */
 registerServiceWorker(function ()
 {
-    initPokiSDK(function ()
-    {
-        initApp();
     });
 });
 
