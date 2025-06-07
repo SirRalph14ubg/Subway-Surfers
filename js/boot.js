@@ -74,4 +74,3 @@ preventDefaultKeyboardEvents();
 registerServiceWorker(function ()
 {
     });
-
