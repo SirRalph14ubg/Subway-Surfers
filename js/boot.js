@@ -10,9 +10,6 @@ function loadScript(path, onComplete)
     document.head.appendChild(script);
 }
 
-    // No PokiSDK available, move on.
-    if (!PokiSDK) return onComplete();
-
     // Promise callback, should be dispatched either way
     function onInitComplete(adBlockerOn)
     {
