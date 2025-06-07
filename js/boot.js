@@ -74,5 +74,4 @@ preventDefaultKeyboardEvents();
 registerServiceWorker(function ()
 {
     });
-});
 
